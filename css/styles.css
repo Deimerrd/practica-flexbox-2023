@@ -294,7 +294,7 @@
   .hero::before,
   .hero::after {
     min-width: 55%;
-    height: 30%;
+    height: 37%;
     top: 80%;
     left: 48%;
     transform: rotate(-4deg);
@@ -309,6 +309,19 @@
     transform: rotate(5deg);
   }
 
+  .main {
+    padding-top: 160px;
+    padding-bottom: 70px;
+    padding-left: 165px;
+    padding-right: 161px;
+    flex-direction: row;
+  }
+
+  .info__picture {
+    display: flex;
+    justify-content: center;
+  }
+
   .titulo {
     font-size: 80px;
     line-height: 80px;
@@ -321,16 +334,6 @@
   }
 
   /*texto*/
-
-  .main {
-    padding-top: 320px;
-    margin: 10px 161px 171px 165px;
-
-    height: 308px;
-    flex-direction: row;
-    gap: 1em;
-    background-color: #fff;
-  }
 
   .info__article {
     width: 730px;
