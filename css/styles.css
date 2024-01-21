@@ -6,7 +6,7 @@
 }
 
 .hero {
-  max-width: 1600px;
+  max-width: 1700px;
   padding: 37px 16px;
   display: flex;
   flex-direction: column;
@@ -102,6 +102,10 @@
   width: 100%;
 }
 
+.container {
+  margin: 2 auto;
+}
+
 .main {
   padding-top: 160px;
   padding-bottom: 70px;
@@ -109,7 +113,7 @@
   flex-direction: column;
   gap: 40px;
   color: #24053e;
-  background-color: #fcf8ff;
+  background-color: #ffff;
   text-align: center;
 }
 
@@ -199,8 +203,10 @@
 .footer {
   display: flex;
   flex-direction: column;
+
   align-items: center;
   gap: 60px;
+
   margin-bottom: 64px;
 }
 
@@ -218,18 +224,18 @@
 
   .hero::before,
   .hero::after {
-    width: 40%;
+    width: 42%;
     height: 15%;
-    top: 97%;
-    left: 60%;
+    top: 95%;
+    left: 59%;
     transform: rotate(-4deg);
-    background-color: #fff;
+    background-color: #ffff;
     z-index: 1;
   }
 
   .hero::before {
-    top: 96%;
-    width: 35%;
+    top: 95%;
+    width: 42%;
     left: -1%;
     transform: rotate(5deg);
   }
@@ -294,26 +300,28 @@
 
   .hero::before,
   .hero::after {
-    min-width: 55%;
-    height: 50%;
-    top: 80%;
+    min-width: 53%;
+    height: 36%;
+    top: 79%;
     left: 48%;
-    transform: rotate(-4deg);
+    transform: rotate(-3deg);
     background-color: #fff;
     z-index: 1;
   }
 
   .hero::before {
     top: 79%;
-    max-width: 100%;
+
     left: -1%;
-    transform: rotate(5deg);
+    transform: rotate(3deg);
   }
 
+  .container {
+    margin: 0 auto;
+  }
   .main {
-    position: static;
-    padding-top: 300px;
-    padding-bottom: 171px;
+    padding-top: 130px;
+    padding-bottom: 175px;
     padding-left: 165px;
     padding-right: 161px;
     flex-direction: row;
