@@ -6,6 +6,7 @@
 }
 
 .hero {
+  max-width: 1600px;
   padding: 37px 16px;
   display: flex;
   flex-direction: column;
@@ -294,7 +295,7 @@
   .hero::before,
   .hero::after {
     min-width: 55%;
-    height: 37%;
+    height: 50%;
     top: 80%;
     left: 48%;
     transform: rotate(-4deg);
@@ -303,15 +304,16 @@
   }
 
   .hero::before {
-    top: 80%;
+    top: 79%;
     max-width: 100%;
     left: -1%;
     transform: rotate(5deg);
   }
 
   .main {
-    padding-top: 160px;
-    padding-bottom: 70px;
+    position: static;
+    padding-top: 300px;
+    padding-bottom: 171px;
     padding-left: 165px;
     padding-right: 161px;
     flex-direction: row;
