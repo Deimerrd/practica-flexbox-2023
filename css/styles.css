@@ -6,6 +6,7 @@
 }
 
 .hero {
+  max-width: 1700px;
   padding: 37px 16px;
   display: flex;
   flex-direction: column;
